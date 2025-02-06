@@ -17,5 +17,13 @@ public class excercise3 {
                 .collect(Collectors.toList());
         System.out.println("Nombres en mayúsculas: " + upperCaseNames);
 
+        long count = names.stream()
+                .filter(name -> name.length() > 5)
+                .count();
+        System.out.println("Cantidad de nombres con más de 5 letras: " + count);
+
+        Map<String, Long> wordFrequency = names.stream()
+                .collect(Collectors.groupingBy(word -> word, Collectors.counting()));
+        System.out.println("Frecuencia de palabras: " + wordFrequency);
     }
 }
