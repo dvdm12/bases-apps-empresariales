@@ -13,3 +13,4 @@ INSERT INTO clientes (nombre, email, telefono) VALUES
 ('Carlos López', 'carlos.lopez@email.com', '555123456'),
 ('María Rodríguez', 'maria.rodriguez@email.com', '666789012'),
 ('Luis Fernández', 'luis.fernandez@email.com', '777654321');
+;
