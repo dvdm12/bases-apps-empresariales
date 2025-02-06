@@ -14,7 +14,7 @@ public class Main {
         int[] minMax = MinMaxFinder.encontrarMinMax(listaNumeros);
         System.out.println("El número más pequeño es " + minMax[0] + " y el más grande es " + minMax[1]);
 
-        // Verificar si una palabra es un palíndromo
+         // Verificar si una palabra es un palíndromo
         System.out.print("Ingrese una palabra: ");
         scanner.nextLine(); // Limpiar el buffer del scanner
         String palabra = scanner.nextLine();
