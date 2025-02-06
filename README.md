@@ -1,2 +1,1 @@
-# bases-apps-empresariales
-# bases-apps-empresariales
+SQL-EXERCISE BY DAVID MANTILLA AVILES
